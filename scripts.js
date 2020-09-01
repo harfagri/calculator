@@ -60,10 +60,7 @@ function calculation(){
     let valueOne = transformCommaToPoint(this.valueMemo);
     let valueTwo =  transformCommaToPoint(inputScreen.value);
     let total = 0;
-    console.log("v 1: "+ valueOne);
-    console.log("v 2: "+ valueTwo);
-    console.log("T: "+ total );
-
+ 
     if(this.operator === "+" && inputScreen.value !== ""){
         total = valueOne + valueTwo;
     }
